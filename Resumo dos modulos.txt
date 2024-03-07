@@ -1,0 +1,52 @@
+MODULO B
+Em javascript = e recebe
+
+As variaveis sao espacos criados para receber valores (que precisam ser identificados).
+As variaveis sao chamadas de var ou let.
+
+REgras para identificadores: 
+podem comecar com letra, $ ou _ 
+nao podem comecar com numeros 
+e possivel usar letras ou numeros 
+pode usar acentos e simbolos 
+nao podem conter espacos 
+nao podem ser palavras reservadas (palavras que ja sao usadas como comandos)
+
+Dicas
+Maiusculas e minusculas fazem diferenca
+escolher nomes coerentes para as variaveis
+
+As variaveis servem para guardar dados
+
+Existem tres tipos de dados primitivos principais:
+number (Infinity, NaN)
+string
+boolean
+null
+undefined
+object
+Array
+function
+
+typeof = codigo para dizer qual e a categoria da variavel
+ + serve para adicao (number + number) ou concatenacao (string + string)
+
+Conversao de um numero para numero inteiro = Number.parselnt(n)
+Conversao para numero com virgula (real) = Number.parseFloat(n)
+
+Existe a variavel Number(n) que sabe se o numero e inteiro ou nao
+
+Convertr numero para coisa
+String(n) ou n.toString()
+
+PlaceHolder ${valor}
+
+Formatar Strings
+s.length (mostra caracteres), s.toUpperCase() (tudo em maiusculas), s.toLowerCase (tudo em minusculas)
+
+Formatar Numeros
+var.toFixed(2) (a variavel vai ficar com duas casas decimais)
+var.toLocaleString(pt-BR, {style: 'currency', currency= 'BRL/USD/EUR'
+
+
+
