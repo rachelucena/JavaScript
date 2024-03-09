@@ -58,5 +58,25 @@ ternarios ? : (tres operandos teste ? true : false)
 aritmeticos > relacionais > logicos
 nao > e > ou
 
+DOM = (Document Object Model) Conjunto de objetos dento do navegador, que da acesso aos componentes internos do website. Funciona quando o javascript esta sendo rodado no navegador.
+tudo dentro do Javascript esta dentro de window (dentro tem a location, document e history)
+DEntro de document, ha o html, e dentro dele tem head e body.
+
+Ha cinco formas de acessar o DOM: por marca, por ID, por nome, por classe, por seletor
+Marca: getElemetsByTagName()
+ID: getElementById()
+Nome: getElementsByName()
+Classe: getElementsByClassName()
+Seletor: querySelector() ou querySelectorAll()
+
+Eventos: tudo aquilo que pode acontecer com o elemento. O mais comum sao eventos de mouse, como mouseenter, mousemove, mousedown, mouseup, click, mouseout
+
+Funcao: conjunto de codigos que vao ser executadas quando o evento ocorrer. Bloco e o conjunto de linhas, que deve ser delimitado por um {}. Fica assim:
+
+function acao(parametros) {
+
+}
+
+
 
 
