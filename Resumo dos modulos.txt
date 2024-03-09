@@ -42,11 +42,21 @@ String(n) ou n.toString()
 PlaceHolder ${valor}
 
 Formatar Strings
-s.length (mostra caracteres), s.toUpperCase() (tudo em maiusculas), s.toLowerCase (tudo em minusculas)
+s.length (mostra caracteres) ${variavel.length}, s.toUpperCase() (tudo em maiusculas), s.toLowerCase (tudo em minusculas)
 
 Formatar Numeros
 var.toFixed(2) (a variavel vai ficar com duas casas decimais)
 var.toLocaleString(pt-BR, {style: 'currency', currency= 'BRL/USD/EUR'
+
+Operadores
+Aritmeticos (+ - * / % (resto da divisao inteira) **(potencia)) Ordem de precedencia: () ** * / % + -  /////   n = n + 4 ou n += 4 (serve para todos os operadores)
+atribuicao (n ++ ou n --)
+relacionais (< > >= <= == !=) O resultado e sempre boleano, isto e, veraddeiro ou falso. Ex: 5 > 2 true 7 < 4 false
+logicos !(nao)(depois da expressao usa-se true ou false) &&(conjuncao e)(operador binario) ||(disjuncao ou) 
+ternarios ? : (tres operandos teste ? true : false)
+
+aritmeticos > relacionais > logicos
+nao > e > ou
 
 
 
