@@ -77,6 +77,7 @@ function acao(parametros) {
 
 }
 
+Para procurar erros no JS: clicar o botao direito e ver, o devtools
 
 
 
