@@ -79,5 +79,42 @@ function acao(parametros) {
 
 Para procurar erros no JS: clicar o botao direito e ver, o devtools
 
+CONDICOES
+if (condicao) {
+	bloco (true)
+} else (condicao) {
+	bloco (false)
+}
 
+Existem alguns tipos de condicao
+1- Condicao simples: apenas com a opcao de bloco verdadeiro
+2- Condicao composta: opcoes de verdadeiro e falso
+3- Condicao aninhada: condicoes dentro de uma condicao composta
+if (condicao) {
+	bloco1
+}else {
+	if (cond2) {
+	bloco2
+}else {
+	bloco3
+	}
+}
+
+4- Condicao multipla: condicao para valores fixos
+switch (expressao) {
+	case valor 1:
+
+	break
+	case valor 2:
+
+	break
+	case valor 3:
+
+	break
+	default:
+
+	break
+}
+
+OBS: O BREAK E OBRIGATORIO!!!!!!!!!!!!!!!!
 
