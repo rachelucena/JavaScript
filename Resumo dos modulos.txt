@@ -118,3 +118,19 @@ switch (expressao) {
 
 OBS: O BREAK E OBRIGATORIO!!!!!!!!!!!!!!!!
 
+Repeticao
+1- TESTE LOGICO NO INICIO: Primeiro testa, depois execta o comando
+while (condicao) {
+	BLOCO
+}
+A estrutura fica sendo repetida ate que seja considerada falsa.
+
+2- TESTE LOGICO NO FINAL: Primeiro executa o bloco, depois testa
+do {
+	BLOCO
+} while (condicao)
+
+3- COM VARIAVEL DE CONTROLE: faz a inicializacao e o teste logico e no momento do looping tambem faz um incremento
+for (inicio; teste; incr) {
+	BLOCO
+}
