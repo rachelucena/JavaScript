@@ -134,3 +134,22 @@ do {
 for (inicio; teste; incr) {
 	BLOCO
 }
+
+VARIAVEIS COMPOSTAS
+
+Uma variavel composta ou array ou vetor e uma varivel composta por varios elementos; cada elemento e comporto por seu valor e um chave de identificacao.
+
+Exemplo - adicionando elementos
+let num = [4, 8, 4]
+num[3] = 6 (a posicao 3 esta vazia, o js percebe e ja cria ela, adiconando o valor que eu coloquei - 6)
+ooooou
+num.push(7) - o vlor 7 vai ser adicionado ao elemento que o js vai criar
+num.length - vai dizer quantos elementos tem no vetor
+num.sort() - coloca os elementos em ordem crescente
+num.indexOf(valor do elemento) - retorna a chave em que esta o valor 7 (se nao encontrar a ocorrencia, ele vai retornar o valor -1)
+
+
+
+for(inicializacao; teste logico; incremento) {
+	console.log()
+}
