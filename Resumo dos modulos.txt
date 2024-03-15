@@ -153,3 +153,11 @@ num.indexOf(valor do elemento) - retorna a chave em que esta o valor 7 (se nao e
 for(inicializacao; teste logico; incremento) {
 	console.log()
 }
+
+FUNCOES E FUNCIONALIDADES
+Toda funcao pode ter uma chamada, conjunto de parametro de entrada, acao e retorno. Sao acoes executadas assim que sao chamadas ou emd ecorrencia de algum evento.
+function acao(parametros) {
+	return res
+}
+
+chamada sa funcao para ela funcionar
