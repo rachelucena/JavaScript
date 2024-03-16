@@ -161,3 +161,7 @@ function acao(parametros) {
 }
 
 chamada sa funcao para ela funcionar
+
+Para declarar objetos em JS
+
+let amigo = {nome:'Jose',sexo:'M',peso:'85',engordar(p){}}
